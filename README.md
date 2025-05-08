@@ -61,7 +61,7 @@ Sigue el instalador para tu sistema operativo.
 Corre el siguiente comando:
 
 ```bash
-docker run -d -p 3000:8080 -v open-webui:/app/backend/data -e OLLAMA_API_BASE_URL=http://host.docker.internal:11434 --name open-webui   --restart always ghcr.io/open-webui/pen-webui:main
+docker run -d -p 3000:8080 -v open-webui:/app/backend/data -e OLLAMA_API_BASE_URL=http://host.docker.internal:11434 --name open-webui   --restart always ghcr.io/open-webui/open-webui:main
 ```
 
 Esto levantará la interfaz en: [http://localhost:3000](http://localhost:3000)
